@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calendroid</string>
+    <string-array name="colors">
+        <item>No Color</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Purple</item>
+    </string-array>
+</resources>

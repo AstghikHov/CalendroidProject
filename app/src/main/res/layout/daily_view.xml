@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/AddBttn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_add_black_24dp"
+        app:fabCustomSize="40dp"
+        />
+
+    <Button
+        android:id="@+id/nxtbttn"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="230dp"
+        />
+
+    <Button
+        android:id="@+id/bckbttn"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="100dp" />
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginTop="70dp"
+
+        />
+
+ 
+
+
+
+</RelativeLayout>
